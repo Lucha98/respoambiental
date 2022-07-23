@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 body{
-
+    margin: 0%;
+    padding: 0%;
 }
 nav{
     margin-right: 5%;
@@ -22,9 +23,20 @@ nav{
 }
 p{
     font-size: 5vh;
+    font-family: 'Roboto', sans-serif;  
 }
-.blo{
+.titulo2{
     margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.texto2{
+    display: flex;
+    justify-content: center;
+}
+
+.blo{
+    margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -69,4 +81,9 @@ h4{
 p3{
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+h6{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 130%;
 }
