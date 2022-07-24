@@ -12,21 +12,29 @@ nav{
 .nav-item{
     padding-left: 10vh;
 }
-.ico{
-    margin-top: 5%;
-}
-.iconos{
-    display:inline-block;
+.primero{
+
     display: flex;
     justify-content: center;
 
 }
+.iconos{
+justify-self: center;
+text-align: center;
+margin-top: 2%;
+
+}
+
+.texto{
+    text-align: center;
+}
+
 p{
     font-size: 5vh;
     font-family: 'Roboto', sans-serif;  
 }
 .titulo2{
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     justify-content: center;
 }
@@ -35,12 +43,8 @@ p{
     justify-content: center;
 }
 
-.blo{
-    margin-top: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
 .block{
+    margin-top: 2%;
     display:inline-block;
     display: flex;
     justify-content: center;
@@ -118,13 +122,9 @@ h7{
     align-items: center;
     justify-content: center;
     max-height: 20rem;
-    min-height: 10rem;
+    min-height: 8rem;
 
 
-}
-p10{
-    font-family: 'Roboto', sans-serif;
-    font-size: 130%;
 }
 .titulo3{
     margin-top: 5%;
